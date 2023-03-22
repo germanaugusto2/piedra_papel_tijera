@@ -1,6 +1,7 @@
 # Programa para simular el juego piedra papel o tijera
+# input
 import random
-
+# processing
 def juego():
     opciones = ["Piedra", "Papel", "Tijera"]
     jugador = input("Elige Piedra, Papel o Tijera: ").capitalize()
